@@ -1,0 +1,86 @@
+@use '../abstracts' as a;
+
+header .logo {
+    width: 100%;
+}
+
+.sticky-header {
+    position: sticky;
+    background-color: #100F0F;
+    z-index: 10;
+    top: 0;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#hamburger-menu {
+    visibility: hidden;
+    background-color: #100F0F;
+    background-image: linear-gradient(pink, #100F0F);
+    color: white;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#hamburger-menu ul li {
+    list-style: none;
+    line-height: 4em;
+    font-size: 20px;
+}
+
+#hamburger-menu ul li:hover {
+    cursor: pointer;
+}
+
+#hamburger-open,
+#hamburger-close {
+    font-size: 30px;
+}
+
+#hamburger-open:hover,
+#hamburger-close:hover {
+    cursor: pointer;
+    color: pink;
+}
+
+.main-nav {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'MabriPro-Bold';
+}
+
+.main-nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.main-nav ul li:last-of-type {
+    margin-right: 0;
+}
+
+/*change color of the text*/
+.box-center ul li:hover {
+    color: pink;
+}
+
+
+.main-nav ul li:hover {
+    padding-bottom: 2px;
+    border-bottom: 2px solid white;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1199px) {
+    .main-nav ul li {
+        margin-right: 30px;
+        font-size: 18px;
+    }
+}
