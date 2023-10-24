@@ -29,7 +29,7 @@
         {
             title: "Comfortable Fit",
             text: "The ergonomic design of the earphones ensures a comfortable fit, so you can wear them for hours on end without any discomfort.",
-            image: "images/earbudscom.jpg"
+            image: "images/earbudscom.png"
         }
     ];
 
