@@ -14,22 +14,22 @@
         {
             title: "Invisible Touch Controls",
             text: "The touch-sensitive controls on the earphones allow you to control the volume, skip tracks, take calls, and activate Siri or Google Assistant.",
-            image: "images/touch_controls.jpg"
+            image: "images/earbudsinvisibletouch.png"
         },
         {
             title: "Hands-Free Mic",
             text: "The built-in microphone allows you to make and receive calls on the go, without having to touch your phone.",
-            image: "images/microphone.jpg"
+            image: "earbudsmic.png"
         },
         {
             title: "Noise Canceling Technology",
             text: "The noise canceling technology reduces ambient noise and distractions, so you can focus on your music.",
-            image: "images/noise_canceling.jpg"
+            image: "images/earbudsnoisecan.png"
         },
         {
             title: "Comfortable Fit",
             text: "The ergonomic design of the earphones ensures a comfortable fit, so you can wear them for hours on end without any discomfort.",
-            image: "images/comfortable_fit.jpg"
+            image: "images/earbudscom.jpg"
         }
     ];
 
