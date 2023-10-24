@@ -11,8 +11,8 @@ Open index.html in your browser choice.
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 ## History
->TODO: Write history
-## The idea of creating these Earbuds comes from a cute concept, therefore I chose the color....
+>The idea of creating these Earbuds comes from a cute concept, therefore I chose the color....
+## Inspiration
   > * [Pinterest Board](https://co.pinterest.com/ssan3np/inspo-earbuds/)
 ## Features
 * `AR object`: Model Editor was implemented to show the earbud in 3D and describe its main characteristics.
