@@ -19,7 +19,7 @@
         {
             title: "Hands-Free Mic",
             text: "The built-in microphone allows you to make and receive calls on the go, without having to touch your phone.",
-            image: "earbudsmic.png"
+            image: "images/earbudsmic.png"
         },
         {
             title: "Noise Canceling Technology",
