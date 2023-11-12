@@ -1,0 +1,79 @@
+@use '../abstracts' as a;
+
+.xrayheader {
+    font-size: 50px;
+    color: a.$pink-color;
+    margin-bottom: 10px;
+}
+
+
+.p_xray {
+    font-size: 20px;
+    color: a.$body-text-color;
+    margin-bottom: 10px;
+
+}
+
+#outerShell {
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+
+    #mobil-tablet-view {
+        display: none;
+    }
+
+
+    #outerShell {
+        display: block;
+        max-width: 1200px;
+        border: solid 1px #666;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #imageCon {
+        position: relative;
+        max-width: 1200px;
+        height: 90vh;
+        overflow: hidden;
+    }
+
+    .slideImage {
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 90vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: all 1s ease-in-out;
+    }
+
+    .image-right {
+        background: url(../images/earbud-x-ray.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .image-left {
+        background: url(../images/earbud.jpg) no-repeat;
+        background-size: cover;
+        width: 50%;
+
+    }
+
+    .image-drag {
+        background-color: a.$pink-color;
+        left: 50%;
+        width: 10px;
+        cursor: pointer;
+        height: 90vh;
+        position: absolute;
+        top: 0;
+        z-index: 999;
+        transition: all 1s ease-in-out;
+    }
+}
