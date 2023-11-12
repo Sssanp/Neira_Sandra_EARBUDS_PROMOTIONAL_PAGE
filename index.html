@@ -1,60 +1,282 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Haan EarBuds</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/nbq3pfj.css">
     <link href="css/main.css" rel="stylesheet"/>
     <link href="css/grid.css" rel="stylesheet"/>
-    
+
+     <!----------------------EARBUDS PAGE:) prof I did my best----------------------->
+
   </head>
   <body>
-  <!-- header -->
 
-    <header class="grid-con">
-      <h2 class="hidden">Header</h2>
-      <nav id="hamburger-menu" class="grid-con">
-          <div class="col-start-4 col-end-5 m-col-start-12 m-col-end-13 l-col-start-12 l-col-end-13 xl-col-start-12 xl-col-end-13 box-right">
-              <i id="hamburger-close" class="fa-solid fa-x"></i>
-          </div>
+    <!----------------------AD----------------------->
 
-          <div class="col-span-4 m-col-start-5 m-col-end-9 l-col-start-5 l-col-end-9 xl-col-start-5 xl-col-end-9 box-center">
-              <ul>
-                  <li><a href="index.html">Home</a></li>
-              </ul>
-          </div>
-      </nav>
+    <div class="mobile col-span-full ad_box">
+      <p>EARLY BLACK FRIDAY USE CODE: EARBF23</p>
+  </div>
 
-      <div class="col-start-1 col-end-4 m-col-start-2 m-col-end-5 l-col-start-2 l-col-end-5 xl-col-start-2 xl-col-end-5 box-left">
-          <h3 class="hidden">Logo</h3>
-          <a href="index.html"><img class="logo" src="images/" alt="logo"></a>
+  <div class="tablet m-col-span-full ad_box">
+      <p>EARLY BLACK FRIDAY USE CODE: EARBF23</p>
+  </div>
+
+  <div class="desktop l-col-span-full xl-col-span-full ad_box">
+      <p>EARLY BLACK FRIDAY USE CODE: EARBF23</p>
+  </div>
+
+  <!----------------------AD END----------------------->
+
+
+   <!----------------------HEADER----------------------->
+
+  <header class="grid-con nav_box">
+    <h2 class="hidden">Header</h2>
+
+    <nav id="hamburger-menu" class="grid-con">
+        <div class="col-start-4 col-end-5 m-col-start-12 m-col-end-13 l-col-start-12 l-col-end-13 xl-col-start-12 xl-col-end-13 box-right">
+            <i id="hamburger-close" class="fa-solid fa-x"></i>
+        </div>
+
+        <div class="col-span-4 m-col-start-5 m-col-end-9 l-col-start-5 l-col-end-9 xl-col-start-5 xl-col-end-9 box-center">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#discover">Discover</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="col-start-1 col-end-4 m-col-start-2 m-col-end-6 l-col-start-2 l-col-end-5 xl-col-start-2 xl-col-end-5 box-left">
+        <h3 class="hidden">Logo</h3>
+        <a href="index.html"><img class="logo" src="images/logo.svg" alt="Haan Logo"></a>
+    </div>
+
+    <nav class="mobile col-start-4 box-right">
+        <h3 class="hidden">Mobile Nav</h3>
+        <i id="hamburger-open" class="fa-solid fa-bars"></i>
+    </nav>
+
+    <nav class="tablet m-col-start-6 m-col-end-12 box-right main-nav">
+        <h3 class="hidden">Tablet Nav</h3>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#discover">Discover</a></li>
+        </ul>
+    </nav>
+
+    <nav class="desktop l-col-start-7 l-col-end-12 xl-col-start-7 xl-col-end-12 box-right main-nav">
+        <h3 class="hidden">Desktop Nav</h3>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#discover">Discover</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!----------------------HEADER END----------------------->
+
+<!----------------------HERO----------------------->
+
+<section>
+  <h2 class="hidden">Hero image</h2>
+  <div>
+    <picture>
+      <source
+        media="(max-width: 799px)"
+        sizes="(max-width: 100vw)"
+        srcset="images/mobilehero.jpg"
+      />
+      <source
+        media="(min-width: 800px)"
+        sizes="(min-width: 50vw) 1000px, 50vw"
+        srcset="images/heroimage.jpg"
+      /> 
+      <img
+        sizes="(max-width: 100vw)"
+        srcset="
+          images/mobilehero_800.jpg 500w,
+          images/heroimage.jpg 1000w"
+        src="images/heroimage.jpg"
+        alt=""
+      />
+    </picture>
+  </div>
+</section>
+<!----------------------HERO END----------------------->
+ 
+<!----------------------SERVICES----------------------->
+
+
+<section class="grid-con">
+  <h2 class="hidden">SERVICES</h2>
+  <div class="col-span-full m-col-span-full l-col-start-3 l-col-end-5 xl-col-start-3 xl-col-end-5 box-center">
+    <h3 class="hidden">FREE SHIPPING</h3>
+    <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-tcwi-truck" viewBox="0 0 100 100"><defs><style>.a{fill:none;stroke:#000;stroke-width:2px}</style></defs><path class="a" d="M44.36 67.09l-2.17.01h20.46V28.83H22.27v3.93M22.27 56.47V67.1h8.78l-2.18-.01"></path><path class="a" d="M36.62 59.5a5.83 5.83 0 0 0-5.84 5.83 5.84 5.84 0 0 0 11.68 0 5.84 5.84 0 0 0-5.84-5.83zM78 59.5a5.84 5.84 0 0 0-5.85 5.83 5.84 5.84 0 0 0 11.68 0A5.83 5.83 0 0 0 78 59.5z"></path><path class="a" d="M70.26 67.09l2.17.01h-9.78V34.03h12.31l15.06 15.06h4.67V67.1H83.57l2.18-.01"></path><path class="a" d="M66.95 49.1V38h5.49l11.04 11.03-16.53.07zM28.26 44.53H5.31M32.81 37.81h-15.3M32.81 51.25h-15.3"></path></svg>
+
+    <div class="col-span-full m-col-span-full l-col-start-3 l-col-end-5 xl-col-start-3 xl-col-end-5 box-center">
+      <h3 class="project-text">FREE SHIPPING</h3>
+      <p class="project-text">We offer free shipping and returns across Canada on orders over $50.</p>
+  
+  </div>
+</div>
+
+
+
+<div class="col-span-full m-col-span-full l-col-start-6 l-col-end-8 xl-col-start-6 xl-col-end-8 box-center">
+  <h3 class="hidden">RISK FREE TRIAL icon</h3>
+  <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-tcwi-shield" viewBox="0 0 100 100"><defs><style>.a{fill:none;stroke:#000;stroke-width:2px}</style></defs><path class="a" d="M51.18 7.63c5.54 3.1 17.09 8.07 34.33 8.07h1.07v23.72A56.14 56.14 0 0 1 80 66.07C73.58 78 63.89 85.62 51.18 88.83 38.48 85.62 28.79 78 22.36 66.06a56.08 56.08 0 0 1-6.58-26.64V15.7h1.07c17.25 0 28.8-4.97 34.33-8.07z"></path><path class="a" d="M66.15 37.87L45.43 58.59l-9.21-9.21"></path></svg>
+
+  <div class="col-span-full m-col-span-full l-col-start-6 l-col-end-8 xl-col-start-6 xl-col-end-8 box-center">
+    <h3 class="project-text">RISK FREE TRIAL</h3>
+    <p class="project-text">
+      We offer a 30-day risk free trial on all orders. If you don't love your earbuds, send them back for a full refund.</p>
+  </div>
+</div>
+
+
+
+<div class="col-span-full m-col-span-full l-col-start-9 l-col-end-11 xl-col-start-9 xl-col-end-11 box-center">
+<h3 class="hidden">24/7 SUPPORT icon</h3>
+<svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-tcwi-thumbs-up" viewBox="0 0 100 100"><defs><style>.a{fill:none;stroke:#000;stroke-width:2px}</style></defs><path class="a" d="M16.01 54.13h20.02v35.22H16.01z"></path><path class="a" d="M36 82.72l3.84 2.63a11.53 11.53 0 0 0 6.54 2h13.91M36 58.78l2.07-1.93A10.23 10.23 0 0 0 40.26 54l7.66-15a7.4 7.4 0 0 0 .81-3.36v-8.3a2.93 2.93 0 0 1 2.92-2.94c2.41 0 5.78 1 7.92 6.18a18.63 18.63 0 0 1 1 10.5l-1.29 6.94h19A4.91 4.91 0 0 1 83.16 53a4.91 4.91 0 0 1-4.91 4.92H59.6M62.68 67.72H76a4.91 4.91 0 0 1 4.91 4.92A4.91 4.91 0 0 1 76 77.55H65.65"></path><path class="a" d="M65.65 77.55h6.12a4.92 4.92 0 0 1 4.92 4.92 4.93 4.93 0 0 1-4.92 4.92h-12.5M59.6 57.89h19.47A4.92 4.92 0 0 1 84 62.81a4.91 4.91 0 0 1-4.92 4.91h-16.4M53.19 20.06v-9.41M47.33 22.12l-6.05-7.22M44.15 27.46l-9.27-1.64M62.04 27.68l9.27-1.64M59 22.26l6.05-7.21"></path></svg>
+
+
+<div class="col-span-full m-col-span-full l-col-start-9 l-col-end-11 xl-col-start-9 xl-col-end-11 box-center">
+  <h3 class="project-text">24/7 SUPPORT</h3>
+  <p class="project-text">
+    We offer 24/7 support via email and live chat.
+  </p>
+  </div>
+</div>
+
+
+
+</section>
+
+<!----------------------SERVICES END----------------------->
+
+
+
+
+
+<!----------------------3D ANIMATION----------------------->
+<section class="grid-con" id="discover">
+  <h2 class="hidden">text</h2>
+  <div class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12 box-center">
+    <h3 class="hidden">header text</h3>
+    <h3 class="animation-text">DISCOVER AMAZING EARBUDS</h3>
+</div>
+</section>
+
+
+<div class="animation">
+  <div class="earbuds-wrap">
+    <canvas id="stanimation"></canvas>
+  </div>
+</div>
+<!----------------------3D ANIMATION END----------------------->
+
+<!----------------------XRAY----------------------->
+
+<section class="grid-con">
+  <h2 class="hidden">text</h2>
+  <div class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12 box-center">
+    <h3 class="hidden">header text</h3>
+    <h3 class="animation-text">A DEEP VIEW</h3>
+    <p class="p_xray"> 
+      Haan Earbuds are packed with the latest technology to give you the best listening experience possible.
+    </p>
+
+</div>
+
+</section>
+
+<!-- X-ray image -->
+
+<div class="grid-con">
+  <section class="container__xray col-span-full box-center">
+      <h2 class="hidden">X-Ray revealer</h2>
+      <div id="mobil-tablet-view">
+          <img src="images/earbud-x-ray.jpg" alt="earbuds xray">
+          <img src="images/earbud.jpg" alt="earbuds">
       </div>
+      <div id="outerShell">
+          <div id="imageCon">
+              <!-- xray version -->
+              <div class="slideImage image-right"></div>
+              <!-- rendered version -->
+              <div class="slideImage image-left"></div>
+              <!-- drag bar -->
+              <div class="slideImage image-drag"></div>
+          </div>
+      </div>
+  </section>
+</div>
 
-      <nav class="mobile col-start-4 box-right">
-          <h3 class="hidden">Mobile Nav</h3>
-          <i id="hamburger-open" class="fa-solid fa-bars"></i>
-      </nav>
+<!-- end x-ray image-->
 
-      <nav class="tablet m-col-start-5 m-col-end-12 box-right main-nav">
-          <h3 class="hidden">Tablet Nav</h3>
-          <ul>
-              <li><a href="index.html">Home</a></li>
-          </ul>
-          
-      </nav>
+<!----------------------XRAY END----------------------->
 
-      <nav class="desktop l-col-start-7 l-col-end-12 xl-col-start-7 xl-col-end-12 box-right main-nav">
-          <h3 class="hidden">Desktop Nav</h3>
-              <ul>
-                  <li><a href="index.html">Home</a></li>
-              </ul>
-      </nav>
-  </header>
-<!-- end Header -->
+<!-- space-->
 
+<div class="col-span-full m-col-span-full l-col-span xl-span-full shop_space"></div>
+
+
+<!-- space end-->
+
+<!----------------------BUY----------------------->
+
+<section class="grid-con">
+  <h2 class="hidden">Hero</h2>
+
+  <div class="col-span-full m-col-start-2 m-col-end-7 l-col-start-2 l-col-end-7 xl-col-start-2 xl-col-end-7 box-center">
+  <div class="textshop">
+      <h3 class="hidden"></h3>
+      <h2 class="hero-text">Between Pro</h2>
+      <h3 class="hero-text">The wireless earbuds that changed everything.</h3>
+      <a href="index.html"><button class="shop_btn">Shop Now - $99</button></a>
+
+  </div>
+  </div>
+
+
+  <div class="col-span-full m-col-start-7 m-col-end-12 l-col-start-7 l-col-end-12 xl-col-start-7 xl-col-end-12 imgearbuds">
+      <h3 class="hidden">Hero Image</h3>
+      <picture>
+        <img
+        class="img_earbuds earbuds_1"
+        sizes="(max-width: 1000px)"
+        srcset="
+        images/earbudsimg.png 1000w"
+        src="images/earbudsimg.png"
+        alt="">
+        </picture>
+  </div>
+
+  
+</section>
+
+<!----------------------BUY END----------------------->
+
+
+
+<!----------------------MODEL VIEW----------------------->
+
+<section class="grid-con arheader">
+  <h2 class="hidden">text</h2>
+  <div class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12 box-center">
+    <h3 class="hidden">header text</h3>
+    <h3 class="arheader">TAKE A CLOSE LOOK</h3>
+</div>
+</section>
+  
 
     <!-- <model-viewer> HTML element -->
-    <model-viewer id="model" src="model/earbudforweb2.gltf" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1.52" shadow-softness="0.94" auto-rotate>
+    <model-viewer id="model" src="model/earbudforweb2.gltf" ar ar-modes="scene-viewer webxr quick-look" ios-src="model/earbudsview.usdz"  camera-controls poster="poster.webp" shadow-intensity="1.52" shadow-softness="0.94" auto-rotate>
+
 
       <button class="Hotspot" slot="hotspot-1" data-position="145.5475705764342m 536.1344398658556m 129.56661116655033m" data-normal="0.24012740182853193m 0.014868246441245462m 0.9706275115299593m" data-visibility-attribute="visible">
         <div class="HotspotAnnotation" id="hotspot-1"></div>
@@ -87,10 +309,84 @@
           <img src="Images/ar_hand_prompt.png">
       </div>
     </model-viewer>  
-    <!-- Loads <model-viewer> for browsers: -->
+  
+<!----------------------MODEL VIEW END----------------------->
+
+<!----------------------FOOTERS----------------------->
+
+<footer class="grid-con spacer">
+  <h2 class="hidden">Footer</h2>
+
+  <div class="col-start-1 col-end-4 m-col-start-2 m-col-end-6 l-col-start-2 l-col-end-5 xl-col-start-2 xl-col-end-5 box-left">
+    <h3 class="hidden">Logo</h3>
+    <a href="index.html"><img class="logo" src="images/logo.svg" alt="Haan Logo"></a>
+</div>
+
+  <nav class="mobile col-span-2 box-left footer-nav">
+      <h3 class="hidden">Footer Nav</h3>
+      <p class="footer-heading">Site</p>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#discover">Discover</a></li>
+      </ul>
+  </nav>
+
+  <nav class="tablet m-col-start-6 m-col-end-7 box-left footer-nav">
+      <h3 class="hidden">Footer Nav</h3>
+      <p class="footer-heading">Site</p>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#discover">Discover</a></li>
+      </ul>
+  </nav>
+
+  <nav class="desktop l-col-start-7 l-col-end-8 xl-col-start-7 xl-col-start-8 box-left footer-nav">
+      <h3 class="hidden">Footer Nav</h3>
+      <p class="footer-heading">Site</p>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#discover">Discover</a></li>
+      </ul>
+  </nav>
+
+  <div class="mobile col-span-2 box-center socials">
+      <p class="footer-heading">Socials</p>
+      <ul>
+          <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a></li>
+      </ul>
+  </div>
+
+  <div class="tablet m-col-start-9 m-col-end-12 box-left socials">
+      <p class="footer-heading">Socials</p>
+      <ul>
+          <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a></li>
+      </ul>
+  </div>
+
+  <div class="desktop l-col-start-10 l-col-end-12 xl-col-start-10 xl-col-end-12 box-left socials">
+      <p class="footer-heading">Socials</p>
+      <ul>
+          <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a></li>
+      </ul>
+  </div>
+
+  <hr class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-2 xl-col-end-12 spacer">
+
+
+
+</footer>
+
+<!----------------------FOOTERS END----------------------->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
     <script src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/0eab0f8aa6.js" crossorigin="anonymous"></script>
+
   </body>
 </html>
