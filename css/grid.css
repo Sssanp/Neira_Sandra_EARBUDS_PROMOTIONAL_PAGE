@@ -12,6 +12,14 @@
 
 /* 1. ---General Grid Styles--- */
 
+img,
+embed,
+object,
+video,
+picture {
+   max-width: 100%;
+}
+
 html {
    box-sizing: border-box;
 }
@@ -22,6 +30,24 @@ html {
    box-sizing: inherit;
 }
 
+
+/* ---Mini CSS reset--- */
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+   margin: 0px;
+   padding: 0px;
+}
+
+.spacer {
+   margin-top: 60px;
+}
+
 /* ---Utility Classes--- */
 
 .hidden {
@@ -29,9 +55,7 @@ html {
 }
 
 
-
 .box-center {
-   background-color: #F28981;
    text-align: center;
    padding: 20px;
    margin-top: 10px;
@@ -39,7 +63,6 @@ html {
 }
 
 .box-left {
-   background-color: #F28981;
    text-align: left;
    padding: 20px;
    margin-top: 10px;
@@ -47,14 +70,28 @@ html {
 }
 
 .box-right {
-   background-color: #F28981;
    text-align: right;
    padding: 20px;
    margin-top: 10px;
    margin-bottom: 10px;
 }
 
+.container {
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+
+
 /* 2. ---Mobile Library Grid Styles--- */
+
+svg {
+   width: 50px;
+   height: 50px;
+}
+
+
 
 .full-width-grid-con {
    display: grid;
@@ -162,7 +199,18 @@ html {
 
 /* 3. ---Tablet Library Grid Styles--- */
 
+
 @media screen and (min-width: 768px) {
+
+
+   svg {
+      width: 180px;
+      height: 180px;
+   }
+
+
+
+
 
    .full-width-grid-con {
       display: grid;
@@ -366,6 +414,11 @@ html {
 
 @media screen and (min-width: 1200px) {
 
+   svg {
+      width: 100px;
+      height: 100px;
+   }
+
    .full-width-grid-con {
       display: grid;
       grid-template-columns: 1fr minmax(0, 1919px) 1fr;
@@ -566,7 +619,16 @@ html {
 
 /* 5. ---X-Large Desktop Library Grid Styles--- */
 
+
+
 @media screen and (min-width: 1920px) {
+
+   svg {
+      width: 100px;
+      height: 100px;
+   }
+
+
 
    .full-width-grid-con {
       display: grid;

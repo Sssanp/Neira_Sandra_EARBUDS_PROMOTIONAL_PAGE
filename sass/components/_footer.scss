@@ -1,0 +1,94 @@
+@use '../abstracts' as a;
+
+
+/* ---Footer Styles--- */
+
+
+
+footer #logo {
+    width: 30%;
+}
+
+
+footer {
+    background-color: a.$haan-color;
+    padding-top: 20px;
+    overflow: hidden;
+
+}
+
+/*change color of footer */
+.footer-nav ul li:hover {
+    color: a.$pink-color;
+}
+
+.footer-nav ul li {
+    list-style-type: none;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.footer-nav ul li:last-of-type {
+    margin-bottom: 0;
+}
+
+.footer-heading {
+    color: a.$pink-color;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-heading:hover {
+    color: white;
+}
+
+.socials ul li {
+    display: inline;
+    margin-right: 15px;
+    font-size: 28px;
+}
+
+
+
+.socials ul li:hover {
+    color: a.$pink-color;
+}
+
+.socials ul li:last-of-type {
+    margin-right: 0;
+}
+
+footer hr {
+    border: none;
+    height: 1px;
+    background-color: white;
+}
+
+@media screen and (max-width: 1199px) {
+    .footer-text {
+        font-size: 18px;
+    }
+
+    .footer-heading {
+        font-size: 28px;
+    }
+
+    .footer-nav ul li {
+        font-size: 20px;
+    }
+
+    .socials ul li {
+        font-size: 25px;
+    }
+}
+
+.footer-heading {
+    color: a.$pink-color;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: a.$heading-font-family;
+
+}
+
+
+/* ---End of Footer Styles--- */

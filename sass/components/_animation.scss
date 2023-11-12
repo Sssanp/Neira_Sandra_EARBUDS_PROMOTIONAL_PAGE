@@ -1,0 +1,19 @@
+@use '../abstracts' as a;
+
+
+body {
+    background-color: white;
+}
+
+
+//
+#stanimation {
+    max-width: 100%;
+}
+
+.animation-text {
+    font-size: 50px;
+    color: a.$pink-color;
+    margin-bottom: 10px;
+
+}

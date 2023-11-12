@@ -1,0 +1,9 @@
+@use '../abstracts' as a;
+
+
+.ad_box {
+    text-align: center;
+    padding: 10px;
+    background-color: a.$pink-color;
+
+}

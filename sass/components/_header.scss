@@ -1,22 +1,14 @@
 @use '../abstracts' as a;
 
-header .logo {
-    width: 100%;
-}
 
-.sticky-header {
-    position: sticky;
-    background-color: #100F0F;
-    z-index: 10;
-    top: 0;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+/* ---Header Styles--- */
+header .logo {
+    width: 30%;
 }
 
 #hamburger-menu {
-    visibility: hidden;
-    background-color: #100F0F;
-    background-image: linear-gradient(pink, #100F0F);
-    color: white;
+    background-color: a.$haan-color;
+    color: a.$pink-color;
     position: fixed;
     z-index: 1;
     left: 0;
@@ -25,6 +17,8 @@ header .logo {
     bottom: 0;
     overflow-y: scroll;
     overflow-x: hidden;
+    visibility: hidden;
+    /* Initial visibility set to hidden */
 }
 
 #hamburger-menu ul li {
@@ -45,7 +39,12 @@ header .logo {
 #hamburger-open:hover,
 #hamburger-close:hover {
     cursor: pointer;
-    color: pink;
+    color: white;
+}
+
+#hamburger-menu.visible {
+    visibility: visible;
+    /* Add any other styles for the visible state if needed */
 }
 
 .main-nav {
@@ -67,7 +66,7 @@ header .logo {
 
 /*change color of the text*/
 .box-center ul li:hover {
-    color: pink;
+    color: a.$pink-color;
 }
 
 
@@ -83,4 +82,23 @@ header .logo {
         margin-right: 30px;
         font-size: 18px;
     }
+}
+
+.nav_box {
+    text-align: center;
+    background-color: a.$haan-color;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: a.$accent-font-family;
+    color: a.$pink-color;
+    font-size: 24px;
+}
+
+header {
+    background-color: a.$haan-color;
+    padding: 0px;
+    ;
 }
