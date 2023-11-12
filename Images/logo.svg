@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="haan_logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.17 6.1">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #F28981;
+        stroke-miterlimit: 10;
+        stroke-width: .3px;
+      }
+
+      .cls-2 {
+        font-family: rounded-mplus-2c-black, 'Rounded M+ 2c';
+        font-size: 1.48px;
+        font-weight: 800;
+        letter-spacing: .02em;
+      }
+    </style>
+  </defs>
+  <path id="shape" class="cls-1" d="m.15,5.58c0-1.09.39-2.09,1.05-2.86-.61-.14-1.05-.67-1.05-1.27,0-.69.58-1.29,1.29-1.29.73,0,1.33.64,1.29,1.39.21-.1.4-.16.54-.21.54-.17,1-.2,1.28-.2.01,0,.03,0,.04,0,.66,0,1.29.15,1.86.41,0-.1-.01-.26.04-.44.01-.05.07-.28.26-.49.28-.32.69-.52,1.1-.47.3.04.58.15.8.37.28.28.41.65.39,1.03-.06.56-.5,1.06-1.05,1.16.06.07.13.16.2.26.22.3.47.73.65,1.28.03.1.2.67.2,1.32"/>
+  <text class="cls-2" transform="translate(2.35 5.58)"><tspan x="0" y="0">haan®</tspan></text>
+</svg>
