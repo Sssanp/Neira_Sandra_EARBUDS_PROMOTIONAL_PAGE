@@ -219,7 +219,7 @@
     hamburgerOpenIcon.addEventListener("click", openHamburgerMenu);
     hamburgerCloseIcon.addEventListener("click", closeHamburgerMenu);
 
-    // Assuming "Discover" is the ID of the section
+   
     document.getElementById("discover").addEventListener("click", (e) => {
         e.preventDefault();
         closeHamburgerMenu();
